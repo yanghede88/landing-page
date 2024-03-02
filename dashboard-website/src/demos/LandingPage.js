@@ -21,8 +21,6 @@ export default () => {
     <AnimationRevealPage>
       <Hero ourTeamRef={ourTeamRef} dashboardRef={dashboardRef}/>
       <OurTeam  ref={ourTeamRef}/>
-      {/* <TableauScoresEmbed ref={dashboardRef}/>
-      <TableauEmbed /> */}
 
       <MainFeature 
         subheading=""
@@ -37,15 +35,7 @@ export default () => {
         buttonRounded={false}
         textOnLeft={false}
       />
-      <Dsc
-        subheading=""
-        heading="Learn more about Vital"
-        // imageSrc={healthyfoodIllustrationImageSrc}
-        buttonRounded={false}
-        textOnLeft={false}
-      />
-     
-     
+  
       {/* <Testimonial /> */}
       <FAQ />
       {/* <Footer /> */}

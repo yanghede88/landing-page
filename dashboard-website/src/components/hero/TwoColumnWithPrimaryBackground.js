@@ -51,10 +51,9 @@ const Hero = ({
 
       <NavLinks key={1}>
         <NavLink  onClick={() => ourTeamRef.current.scrollIntoView({ behavior: "smooth" })} >Our Team</NavLink>
-        <NavLink onClick={() => dashboardRef.current.scrollIntoView({ behavior: "smooth" })} >Dashboard</NavLink>
+        {/* <NavLink onClick={() => dashboardRef.current.scrollIntoView({ behavior: "smooth" })} >Dashboard</NavLink> */}
         <NavLink href="/#/About-Our-Project">About our Project</NavLink>
-
-        <NavLink href="/#/Dsc">Login</NavLink>
+        <NavLink href="https://med-dash-product.vercel.app/" target="_blank">Login</NavLink>
 
 
       </NavLinks>

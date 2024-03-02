@@ -9,13 +9,14 @@ import { SectionDescription } from "components/misc/Typography.js";
 import defaultCardImage from "images/shield-icon.svg";
 
 
-import JoshProfile from "images/Joshprofile.png";
-import AvenProfile from "images/Avenprofile.png";
-import KennyProfile from "images/kennynguyenprofile.png";
-import AnjanaProfile from "images/Anjanaprofile.png";
+import TeresaProfile from "images/teresa.png";
+import HedeProfile from "images/hede.jpeg";
+import TwhscProfile from "images/twhsc.jpeg";
+import BryanProfile from "images/bryan.jpeg";
+import JesseProfile from "images/jesse.jpg";
 import NicoleProfile from "images/Nicoleprofile.png";
-import RohithProfile from "images/Rohithprofile.png";
-import KamenProfile from "images/Kamenprofile.png";
+import YuchuProfile from "images/yuchu.jpg";
+import EricProfile from "images/eric.jpg";
 
 const Container = tw.div`relative bg-primary-800 -mx-8 px-8 text-gray-100`;
 
@@ -70,28 +71,28 @@ const ourTeam = React.forwardRef( ({
 
 const DSCmembers = [
   {
-    imageSrc: AnjanaProfile,
-    title: "Anjana Sriram",
-    description: "Anjana is a graduate of UC San Diego's Halicioglu Data Science Institute. She is passionate about using data for good, and hopes to create a data-driven world that improves lives for everyone. After graduating this winter, she will be starting work as a Data Scientist for Disney streaming!"
+    imageSrc: HedeProfile,
+    title: "Hede Yang",
+    description: "Hi! I’m Hede and I’m a fourth year data science student at UCSD. I enjoy crocheting, hiking and free diving during my free time. "
   },
- { imageSrc: AvenProfile, 
-    title: "Aven Huang",
-    description: "Aven is a graduate of UC San Diego’s Halicioglu Data Science Institute. She is interested in combining software engineering and data science practices to build tools. After graduation, she will begin work as a Software Engineer at Sprout Social." },
-  { imageSrc: KamenProfile, 
-    title: "Kamen Redfield",
-    description: "Kamen Redfield is a graduate of UC San Diego's Halicioglu Data Science Institute. His professional interests lie in Natural Language Processing and will be looking to work as a Data Scientist in this field before returning back for graduate school." },
-  { imageSrc: KennyProfile, 
-    title: "Kenny Nguyen",
-    description: "Kenny is a graduate of the Halicioglu Data Science Institute at UC San Diego. His professional interests lie in leveraging data science to make health care more accessible and equitable for all demographics. After graduation, he will begin work as a Data Scientist at Foundation Risk Partners." },
-  { imageSrc: NicoleProfile, 
-    title: "Nicole Brye",
-    description: "Nicole is a graduate of the Halicioglu Data Science Institute at UC San Diego. Her interests are at the intersection of data science and health care, and post-graduation she plans to attend graduate school." },
-  { imageSrc: JoshProfile, 
-    title: "Qiaoxuan (Josh) Wang",
-    description: "Qiaoxuan (Josh) is a graduate of the Halicioglu Data Science Institute at UC San Diego and an incoming Data Analyst at AT&T. He seeks to use his background in data science and project management to improve the lives of others through healthcare, infrastructure, and entrepreneurship." },
-  { imageSrc: RohithProfile, 
-    title: "Rohith Pillai",
-    description: "Rohith is a graduate of the Halicioglu Data Science Institute at UC San Diego. His professional interests lie somewhere between analytics and machine learning, and will be looking forward to working in this field soon after graduating." }
+ { imageSrc: TwhscProfile, 
+    title: "Wenhua Tang",
+    description: "Hi! I'm Wenhua. I am currently in my third year at UC San Diego studying Data Science. I hope to find a job in data engineering in the future. During my free time, I enjoy playing video games and cooking." },
+  { imageSrc: TeresaProfile, 
+    title: "Teresa Lee",
+    description: "Hi! I’m a fourth year data science student at UCSD. I hope to leverage data science in health to help patients. I enjoy cooking and going on walks during my free time." },
+  { imageSrc: EricProfile, 
+    title: "Eric Park",
+    description: " Hi, I’m Eric and I’m currently a fourth year data science student at UCSD. In my free time, I enjoy playing basketball with friends and playing video games" },
+  { imageSrc: JesseProfile, 
+    title: "Zhilin Guo",
+    description: "Fourth year student at UCSD, majoring in Data Science. I hope AI can provide more specific health services in the future." },
+  { imageSrc: BryanProfile, 
+    title: "Bryan Talavera",
+    description: " Hi, I’m Bryan. I am a fourth year Data Science major. I hope to use my understanding of Data Science to help others make informed data-driven decisions. I enjoy skateboarding and playing video games with friends. " },
+  { imageSrc: YuchuProfile, 
+    title: "Yuchu Yan",
+    description: "Hi, I'm a senior student at UCSD, majoring in Data Science with a minor in General Biology. My ambition is to integrate data science with other fields, particularly in the realm of biology. In my spare time, I enjoy go-karting, motorcycling, and baking." }
 ];
 
 if (!members) members = DSCmembers;
